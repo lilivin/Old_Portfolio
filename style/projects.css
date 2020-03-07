@@ -1,0 +1,146 @@
+.projects {
+    max-width: 100vw;
+}
+
+.projects {
+    width: 55%;
+    margin: 10vh auto;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 6px 29px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 6px 29px -6px rgba(0,0,0,0.75);
+    box-shadow: 2px 6px 29px -6px rgba(0,0,0,0.75);
+}
+
+.portfolio h2 {
+    text-align: center;
+    font-size: 32px;
+    padding: 5vh 0;
+    text-decoration: underline;
+}
+
+.project {
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
+    max-width: 1280px;
+    color: white;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.oneArmed {
+    background-image: url("../img/oneArmedBandit.jpg");
+}
+
+.itmasters {
+    background-image: url("../img/itmasters.jpg");
+}
+
+.weatherApp {
+    background-image: url("../img/weatherApp.jpg");
+}
+
+.malinoweNoski {
+    background-image: url("../img/malinoweNoski.jpg");
+}
+
+.toDoApp {
+    background-image: url("../img/toDoApp.jpg");
+}
+
+.oneArmed h3, .weatherApp h3, .itmasters h3, .toDoApp h3, .malinoweNoski h3 {
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 46px;
+}
+
+.oneArmed p, .weatherApp p, .itmasters p, .toDoApp p, .malinoweNoski p {
+    font-size: 22px;
+}
+
+.technology {
+    padding: 30px 0;
+}
+
+.hiperlinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hiperlink {
+    display: block;
+    padding: 15px 70px;
+    border: 2px solid white;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1238px) {
+    .projects {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 914px) {
+    .projects {
+        width: 100%;
+    }
+
+    .projects {
+        width: 55%;
+        margin: 0;
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .oneArmed h3, .weatherApp h3, .itmasters h3, .toDoApp h3, .malinoweNoski h3 {
+        font-size: 32px;
+    }
+    
+    .oneArmed p, .weatherApp p, .itmasters p, .toDoApp p, .malinoweNoski p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .hiperlink {
+        display: block;
+        padding: 10px 30px;
+        margin-bottom: 5px;
+        border: 2px solid white;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .technology {
+        padding: 15px 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .hiperlink {
+        display: block;
+        padding: 5px 20px;
+        margin-bottom: 5px;
+        border: 2px solid white;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .technology {
+        padding: 15px 0;
+    }
+
+    .oneArmed h3, .weatherApp h3, .itmasters h3, .toDoApp h3, .malinoweNoski h3 {
+        font-size: 22px;
+    }
+    
+    .oneArmed p, .weatherApp p, .itmasters p, .toDoApp p, .malinoweNoski p {
+        font-size: 12px;
+    }
+}
