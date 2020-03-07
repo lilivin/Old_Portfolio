@@ -76,6 +76,15 @@
     border-radius: 20px;
     color: white;
     text-decoration: none;
+    transition: .3s ease-in;
+}
+
+.hiperlink:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
 }
 
 @media only screen and (max-width: 1238px) {
