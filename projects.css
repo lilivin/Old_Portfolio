@@ -30,23 +30,23 @@
 }
 
 .oneArmed {
-    background-image: url("../img/oneArmedBandit.jpg");
+    background-image: url("oneArmedBandit.jpg");
 }
 
 .itmasters {
-    background-image: url("../img/itmasters.jpg");
+    background-image: url("itmasters.jpg");
 }
 
 .weatherApp {
-    background-image: url("../img/weatherApp.jpg");
+    background-image: url("weatherApp.jpg");
 }
 
 .malinoweNoski {
-    background-image: url("../img/malinoweNoski.jpg");
+    background-image: url("malinoweNoski.jpg");
 }
 
 .toDoApp {
-    background-image: url("../img/toDoApp.jpg");
+    background-image: url("toDoApp.jpg");
 }
 
 .oneArmed h3, .weatherApp h3, .itmasters h3, .toDoApp h3, .malinoweNoski h3 {

@@ -7,7 +7,7 @@
 .mainSite {
     height: 100vh;
     max-width: 100vw;
-    background-image: url("../img/mainSitePicture.jpg");
+    background-image: url("mainSitePicture.jpg");
     background-size: cover;
     background-attachment: fixed;
 }

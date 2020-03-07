@@ -1,5 +1,5 @@
 .aboutMe {
-    background-image: url("../img/background.jpg");
+    background-image: url("background.jpg");
     padding: 3vh 0 10vh 0;
     background-size: cover;
     background-attachment: fixed;
@@ -14,7 +14,7 @@
 }
 
 .photo {
-    background-image: url("../img/fotoProfil.jpg");
+    background-image: url("fotoProfil.jpg");
     height: 20vw;
     width: 20vw;
     background-size: cover;
