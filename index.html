@@ -8,13 +8,13 @@
         rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/0233149bfc.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./mainSite.css">
-    <link rel="stylesheet" href="navigation.css">
-    <link rel="stylesheet" href="projects.css">
-    <link rel="stylesheet" href="aboutMe.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="./styles/aboutMe.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/mainSite.css">
+    <link rel="stylesheet" href="./styles/navigation.css">
+    <link rel="stylesheet" href="./styles/projects.css">
     <title>Karol Liwiński Portfolio</title>
-    <link rel="shortcut icon" type="image/png" href="logoSmall.png">
+    <link rel="shortcut icon" type="image/png" href="./images/logoSmall.png">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
             </span>
         </button>
         <div class="navigation">
-            <img class="logoNav" src="logo.png" alt="logoNav">
+            <img class="logoNav" src="./images/logo.png" alt="logoNav">
             <ul class="navigation__list">
                 <li id="start" class="startSection">Start</li>
                 <li id="projekty" class="projectsSection">Moje projekty</li>
@@ -35,7 +35,7 @@
         </div>
     </nav>
     <section id="startSection" class="mainSite">
-        <img class="logo" src="logo.png" alt="logo">
+        <img class="logo" src="./images/logo.png" alt="logo">
         <div class="name">
             <h2>Karol Liwiński</h2>
             <h3>Frontend Developer</h3>
@@ -48,14 +48,14 @@
         <section class="projects">
             <div class="portfolio">
                 <h2>Moje projekty</h2>
-                <div class="oneArmed project">
-                    <h3>Jednoręki bandyta</h3>
-                    <p>Symulator popularnej gry hazardowej.</p>
-                    <p class="technology">Technologie: HTML, CSS, JavaScript</p>
+                <div class="aboutUs project">
+                    <h3>About Us</h3>
+                    <p>Gra towarzyska w całości mojego autorstwa.</p>
+                    <p class="technology">Technologie: HTML, SASS, JavaScript</p>
                     <div class="hiperlinks">
-                        <a target="_blank" class="live hiperlink" href="https://lilivin.github.io/">Live</a>
+                        <a target="_blank" class="live hiperlink" href="https://lilivin.github.io/AboutUs/">Live</a>
                         <a target="_blank" class="code hiperlink"
-                            href="https://github.com/lilivin/lilivin.github.io">Code</a>
+                            href="https://github.com/lilivin/AboutUs">Code</a>
                     </div>
                 </div>
 
@@ -76,6 +76,17 @@
                     <div class="hiperlinks">
                         <a target="_blank" class="live hiperlink" href="https://lilivin.github.io/weatherapp/">Live</a>
                         <a target="_blank" class="code hiperlink" href="https://github.com/lilivin/weatherapp">Code</a>
+                    </div>
+                </div>
+
+                <div class="oneArmed project">
+                    <h3>Jednoręki bandyta</h3>
+                    <p>Symulator popularnej gry hazardowej.</p>
+                    <p class="technology">Technologie: HTML, CSS, JavaScript</p>
+                    <div class="hiperlinks">
+                        <a target="_blank" class="live hiperlink" href="https://lilivin.github.io/">Live</a>
+                        <a target="_blank" class="code hiperlink"
+                            href="https://github.com/lilivin/lilivin.github.io">Code</a>
                     </div>
                 </div>
 
@@ -139,10 +150,13 @@
                     <div class="abilities">
                         <i class="fab fa-html5" id="html"></i>
                         <i class="fab fa-css3-alt" id="css"></i>
+                        <i class="fab fa-sass" id="sass"></i>
                         <i class="fab fa-js-square" id="js"></i>
                         <i class="fab fa-react" id="react"></i>
                         <i class="fab fa-git-alt" id="git"></i>
                         <i class="fab fa-npm" id="npm"></i>
+                        <i class="pug" id="pug">PUG</i>
+                        <i class="bem" id="bem">BEM</i>
                     </div>
                 </div>
                 <div class="softSkills">
@@ -189,9 +203,9 @@
             <p>Created by Karol Liwiński</p>
         </footer>
     </section>
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="skills.js"></script>
-    <script src="navigation.js"></script>
+    <script src="./scripts/jquery-3.2.1.min.js"></script>
+    <script src="./scripts/skills.js"></script>
+    <script src="./scripts/navigation.js"></script>
 </body>
 
 </html>
