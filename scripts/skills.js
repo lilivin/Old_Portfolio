@@ -8,25 +8,26 @@ let npm = document.getElementById("npm");
 let pug = document.getElementById("pug");
 let bem = document.getElementById('bem');
 let sass = document.getElementById('sass')
+let bootstrap = document.getElementById('bootstrap');
 
 html.addEventListener("click", function() {
-    comunicate.textContent = "Dobra znajomość HTML";
+    comunicate.textContent = "Dobra znajomość HTML.";
 })
 
 css.addEventListener("click", function() {
-    comunicate.textContent = "Dobra znajomość CSS";
+    comunicate.textContent = "Dobra znajomość CSS.";
 })
 
 javaScript.addEventListener("click", function() {
-    comunicate.textContent = "Znajomość JavaScript";
+    comunicate.textContent = "Znajomość JavaScript.";
 })
 
 react.addEventListener("click", function() {
-    comunicate.textContent = "Podstawowa znajomość React'a";
+    comunicate.textContent = "Podstawowa znajomość React'a.";
 })
 
 git.addEventListener("click", function() {
-    comunicate.textContent = "Początkowa znajomość systemu kontroli wersji";
+    comunicate.textContent = "Początkowa znajomość systemu kontroli wersji.";
 })
 
 npm.addEventListener("click", function() {
@@ -43,6 +44,10 @@ bem.addEventListener("click", function() {
 
 sass.addEventListener("click", function() {
     comunicate.textContent = "Znajomość Sass(Scss) z wykorzystanie w kilku projektach.";
+})
+
+bootstrap.addEventListener("click", function() {
+    comunicate.textContent = "Znam i tworzyłem strony w bibliotece Bootstrap.";
 })
 
 let softCommunicate = document.getElementById("moreAboutSoftSkills");
