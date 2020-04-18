@@ -15,7 +15,9 @@
 
 .photo {
     background-image: url("../images/fotoProfil.jpg");
+    max-height: 300px;
     height: 20vw;
+    max-width: 300px;
     width: 20vw;
     background-size: cover;
     background-position: center;
