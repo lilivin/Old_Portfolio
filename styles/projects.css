@@ -53,8 +53,8 @@
     background-image: url("../images/malinoweNoski.jpg");
 }
 
-.toDoApp {
-    background-image: url("../images/toDoApp.jpg");
+.tracker {
+    background-image: url("../images/calculator.jpg");
 }
 
 .boyfriendtag {
@@ -65,13 +65,13 @@
     background-image: url("../images/bg2.jpg");
 }
 
-.oneArmed h3, .weatherApp h3, .itmasters h3, .toDoApp h3, .malinoweNoski h3, .aboutUs h3, .boyfriendtag h3, .sneakShop h3, .santos h3 {
+.oneArmed h3, .weatherApp h3, .itmasters h3, .tracker h3, .malinoweNoski h3, .aboutUs h3, .boyfriendtag h3, .sneakShop h3, .santos h3 {
     padding-top: 10px;
     text-transform: uppercase;
     font-size: 46px;
 }
 
-.oneArmed p, .weatherApp p, .itmasters p, .toDoApp p, .malinoweNoski p, .aboutUs p, .boyfriendtag p, .sneakShop p, .santos p {
+.oneArmed p, .weatherApp p, .itmasters p, .tracker p, .malinoweNoski p, .aboutUs p, .boyfriendtag p, .sneakShop p, .santos p {
     font-size: 22px;
 }
 
@@ -116,11 +116,11 @@
 }
 
 @media only screen and (max-width: 690px) {
-    .oneArmed h3, .weatherApp h3, .itmasters h3, .toDoApp h3, .malinoweNoski h3, .aboutUs h3, .boyfriendtag h3, .sneakShop h3, .santos h3 {
+    .oneArmed h3, .weatherApp h3, .itmasters h3, .tracker h3, .malinoweNoski h3, .aboutUs h3, .boyfriendtag h3, .sneakShop h3, .santos h3 {
         font-size: 32px;
     }
     
-    .oneArmed p, .weatherApp p, .itmasters p, .toDoApp p, .malinoweNoski p, .aboutUs p, .boyfriendtag p, .sneakShop p, .santos p {
+    .oneArmed p, .weatherApp p, .itmasters p, .tracker p, .malinoweNoski p, .aboutUs p, .boyfriendtag p, .sneakShop p, .santos p {
         font-size: 16px;
     }
 }
@@ -155,11 +155,11 @@
         padding: 15px 0;
     }
 
-    .oneArmed h3, .weatherApp h3, .itmasters h3, .toDoApp h3, .malinoweNoski h3, .aboutUs h3, .boyfriendtag h3, .sneakShop h3, .santos h3 {
+    .oneArmed h3, .weatherApp h3, .itmasters h3, .tracker h3, .malinoweNoski h3, .aboutUs h3, .boyfriendtag h3, .sneakShop h3, .santos h3 {
         font-size: 22px;
     }
     
-    .oneArmed p, .weatherApp p, .itmasters p, .toDoApp p, .malinoweNoski p, .aboutUs p, .boyfriendtag p, .sneakShop p, .santos p {
+    .oneArmed p, .weatherApp p, .itmasters p, .tracker p, .malinoweNoski p, .aboutUs p, .boyfriendtag p, .sneakShop p, .santos p {
         font-size: 12px;
     }
 }
